@@ -1,4 +1,4 @@
-<img src="SourceTember.jpeg"  alt="logo" width="900"  align="left"/>
+<img src="./assets/images/readme-logo.jpeg"  alt="logo" width="900"  align="left"/>
 
 
 # *_SourceTember_* #
@@ -25,7 +25,7 @@ A month-long celebration from October 1st - 31st sponsored by Digital Ocean and 
 
 
 
-<img src="source-gif.gif"  alt="logo" />
+<img src="./assets/images/readme-gif.gif"  alt="logo" />
 
 
 
