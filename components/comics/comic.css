@@ -123,7 +123,7 @@ nav{
     transition: 0.2s;
 }
 
-.card > .title:hover{
+.card:hover > .title{
     color: red;
 }
 
