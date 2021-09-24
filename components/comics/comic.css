@@ -1,5 +1,6 @@
 /* =================== Google Fonts Links ================== */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
 
 
 /* ======================================================= */
@@ -53,6 +54,7 @@ nav{
 
 .left>a, .right>a{
     text-decoration: none;
+    font-family: 'Comfortaa', cursive;
 }
 
 .nav-links{
@@ -102,6 +104,7 @@ nav{
     z-index: 5;
     transition: 0.3s;
     box-shadow: 4px 4px 7px -2px rgb(65, 65, 65);
+    clip-path: polygon(13% 0, 100% 0, 100% 90%, 87% 100%, 0 100%, 0 10%);
 }
 
 .card .card-holder img:hover{
