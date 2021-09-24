@@ -29,6 +29,8 @@ body{
     background: #202020;
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Comfortaa', cursive;
 }
 
 nav{
@@ -100,15 +102,15 @@ nav{
 
 .card .card-image img{
     width: 230px;
-    border-radius: 7px;
+    border-radius: 10px;
     z-index: 5;
     transition: 0.3s;
-    box-shadow: 4px 4px 7px -2px rgb(65, 65, 65);
     clip-path: polygon(13% 0, 100% 0, 100% 90%, 87% 100%, 0 100%, 0 10%);
+    
 }
 
-.card .card-holder img:hover{
-    transform: translateY(10px);
+.card .card-holder{
+    filter: drop-shadow(-1px 6px 3px rgba(50, 50, 50, 0.5));
 }
 
 .card > .title{
@@ -123,4 +125,8 @@ nav{
 
 .card > .title:hover{
     color: red;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
 }

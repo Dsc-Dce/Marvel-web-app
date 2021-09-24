@@ -29,6 +29,8 @@ body{
     background: #202020;
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Comfortaa', cursive;
 }
 
 nav{
@@ -100,7 +102,7 @@ nav{
 
 .card .card-image img{
     width: 230px;
-    border-radius: 7px;
+    border-radius: 10px;
     z-index: 5;
     transition: 0.3s;
     box-shadow: 4px 4px 7px -2px rgb(65, 65, 65);
@@ -123,4 +125,8 @@ nav{
 
 .card > .title:hover{
     color: red;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
 }
