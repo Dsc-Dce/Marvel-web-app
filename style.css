@@ -29,7 +29,7 @@ body{
     background: #202020;
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
     font-family: 'Comfortaa', cursive;
 }
 
@@ -75,7 +75,7 @@ nav{
 /* ========== NavBar Ends =========== */
 
 .content{
-    margin: 40px 50px;
+    margin: 10px 50px;
     background: white;
     border-radius: 15px;
     padding: 20px 25px;
@@ -117,4 +117,61 @@ nav{
 
 ::-webkit-scrollbar{
     width: 0px;
+}
+
+/* ========== CSS for Slider ========== */
+
+#slider {
+    position: relative;
+    width: 100vw;
+    height: 400px;
+  
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+#slider ul {
+    position: relative;
+    list-style: none;
+    height: 100%;
+    width: 1000%;
+    padding: 0;
+    margin: 0;
+    transition: all 550ms ease;
+    left: 0;
+}
+#slider ul li {
+    position: relative;
+    height: 100%;
+  
+    float: left;
+}
+#slider ul li img{
+    width: 100vw;
+    height: 100%;
+}
+#slider #prev, #slider #next {
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    border-radius: 50%;
+    font-size: 2rem;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    transform: translateY(-50%);
+    transition: all 150ms ease;
+}
+#slider #prev {
+    left: 10px;
+}
+#slider #next {
+    right: 10px;
+}
+  
+#slider #prev:hover, #slider #next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 0;
 }
