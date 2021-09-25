@@ -100,10 +100,10 @@ nav{
 .content > .gdsc{
     text-align: center;
 }
-.content > .gdsc > span, .content > .gdsc> p> span{
+.content > .gdsc > span, .content > .gdsc> p> span, .content > .gdsc > .flex > p > span{
     font-weight: 700;
 }
-.content > .gdsc > p{
+.content > .gdsc > p, .content > .gdsc > .flex > p{
     text-align: left;
     padding: 5px 15px;
 }
@@ -113,6 +113,14 @@ nav{
     margin: 10px 5px;
     padding: 5px 0;
     border-bottom: 1px solid black;
+}
+.content > .gdsc > .flex{
+    display: flex;
+}
+
+.content > .gdsc > .flex > img{
+    width: 50%;
+    height: auto;
 }
 
 ::-webkit-scrollbar{
