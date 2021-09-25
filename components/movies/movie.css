@@ -1,6 +1,7 @@
 /* =================== Google Fonts Links ================== */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@700&display=swap');
 
 
 /* ======================================================= */
@@ -97,6 +98,7 @@ nav{
     align-items: center;
     padding: 10px 0;
     margin: 15px 15px;
+    text-align: center;
 }
 
 
@@ -111,22 +113,40 @@ nav{
 
 .card .card-holder:hover{
     background: red;
+    filter: drop-shadow(2px 3px 5px black);
 }
 
 .card > .title{
     font-family: 'Ubuntu Mono', monospace;
     font-weight: 700;
     color: rgb(70, 70, 70);
-    padding: 10px 15px;
+    padding: 0px 15px;
     font-size: 18px;
     cursor: default;
     transition: 0.2s;
+    transform: translateY(-15px);
+}
+
+.card > .know-more{
+    width: 150px;
+    padding: 5px 0;
+    background: red;
+    clip-path: polygon(8% 0, 100% 0, 100% 70%, 92% 100%, 0 100%, 0 30%);
+    transform: translateY(-20px);
+}
+
+.card > .know-more > a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'Gemunu Libre', sans-serif;
 }
 
 .card:hover > .title{
     color: red;
 }
 
+/* =================== ScrollBar Settings =================== */
 ::-webkit-scrollbar{
     width: 0px;
 }
