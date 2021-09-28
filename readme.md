@@ -51,6 +51,10 @@ Let's go and make Stan Lee proud!!!
 Use this project to make your first contribution to an open source project on GitHub. Practice making your first pull request to a public repository before doing the real thing!
 This repository is open to all members of the GitHub community. Any member may contribute to this project without being a collaborator.
 
+## Contributing
+
+Refer to [CONTRIBUTING.md](https://github.com/Dsc-Dce/Marvel-web-app/edit/main/CONTRIBUTING.md)
+
 
 # How to contribute to this project #
 You can add cards for any of these pages:
