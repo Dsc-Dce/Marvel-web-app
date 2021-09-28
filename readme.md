@@ -53,4 +53,4 @@ This repository is open to all members of the GitHub community. Any member may c
 
 ## Contributing
 
-Refer to [CONTRIBUTING.md](https://github.com/Dsc-Dce/Marvel-web-app/edit/main/CONTRIBUTING.md)
+Refer to [CONTRIBUTING.md](https://github.com/Dsc-Dce/Marvel-web-app/blob/main/CONTRIBUTING.md)
