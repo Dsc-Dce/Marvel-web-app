@@ -5,6 +5,8 @@ You can add cards for any of these pages:
 
  > Comics
  
+ > Series 
+ 
  > Characters
 
 
