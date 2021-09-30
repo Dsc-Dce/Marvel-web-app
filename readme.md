@@ -44,6 +44,9 @@ Keeping all that in our dearest minds let's create a clone website similar to Ma
 
 Let's go and make Stan Lee proud!!!
 
+# Techs used : #
+
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 
 
 # What you will be doing? #
