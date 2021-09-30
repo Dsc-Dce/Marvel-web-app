@@ -3,8 +3,6 @@ You can add cards for any of these pages:
 
  > Movies
 
- > Series
-
  > Comics
  
  > Characters
