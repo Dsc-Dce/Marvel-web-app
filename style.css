@@ -148,6 +148,10 @@ footer > a > i{
     width: 0px;
 }
 
+* {
+    scrollbar-width: none;
+}
+
 /* ========== CSS for Slider ========== */
 
 #slider {
